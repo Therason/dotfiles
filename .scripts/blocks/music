@@ -1,0 +1,2 @@
+#!/bin/bash 
+echo "$(playerctl --player=spotifyd metadata title) - $(playerctl --player=spotifyd metadata artist)"
