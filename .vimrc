@@ -6,6 +6,8 @@ set shiftwidth=2
 set expandtab
 set smartindent
 set nu
+set hlsearch
+set relativenumber
 set nowrap
 set smartcase
 set noswapfile
@@ -15,16 +17,14 @@ set undofile
 set splitright
 set incsearch
 set encoding=utf-8
-set colorcolumn=80
-highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'morhetz/gruvbox'
 Plug 'lyuts/vim-rtags'
 Plug 'mbbill/undotree'
 Plug 'neoclide/coc.nvim'
 Plug 'vim-airline/vim-airline'
+Plug 'hugolgst/vimsence'
 
 call plug#end()
 

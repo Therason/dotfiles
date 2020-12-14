@@ -1,5 +1,5 @@
 #!/bin/bash
-
+killall onkeo
 rand=$((1 + $RANDOM % 5))
 case "$rand" in
   "1") flag="-tora";;
@@ -8,6 +8,5 @@ case "$rand" in
   "4") flag="-sakura";;
   "5") flag="-tomoyo";;
 esac
-killall onkeo
 
 oneko "$flag"
